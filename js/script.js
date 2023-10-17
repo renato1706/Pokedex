@@ -60,12 +60,10 @@ buttonNext.addEventListener('click', () => {
 renderPokemon(searchPokemon);
 
 const botao = document.querySelector('.botao');
-
   
   botao.addEventListener('mouseover', function() {
     botao.style.cursor = 'pointer'; 
   });
-
   
   botao.addEventListener('mouseout', function() {
     botao.style.cursor = 'default'; 
